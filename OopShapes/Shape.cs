@@ -8,6 +8,6 @@ namespace OopShapes
 {
     internal abstract class Shape
     {
-        public abstract int GetArea();
+        public abstract double GetArea();
     }
 }

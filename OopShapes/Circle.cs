@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace OopShapes
 {
-    internal class Squares : Shape
+    internal class Circle : Shape
     {
-        private int side;
+        private int radius;
 
-        public Squares(int a)
+        public Circle(int r)
         {
-            this.side = a;
+            this.radius = r;
         }
 
         public override double GetArea()
         {
-            return this.side = this.side;
+            return 3.14 * radius * radius;
         }
     }
 }
